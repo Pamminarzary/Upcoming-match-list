@@ -1,0 +1,41 @@
+{
+    "info": {
+        "_postman_id": "2161921__5957",
+        "name": "Basketball Real Time Match API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [{
+            "name": "Match Live",
+            "request": {
+                "auth": {
+                    "type": "bearer",
+                    "bearer": [
+                        {
+                            "key": "token",
+                            "value": "",
+                            "type": "string"
+                        }
+                    ]
+                },
+                "method": "GET",
+                "url": {
+                    "raw": "https://zylalabs.com/api/5957/basketball+real+time+match+api/7896/match+live",
+                    "protocol": "https",
+                    "host": [
+                        "zylalabs",
+                        "com"
+                    ],
+                    "path": [
+                        "api",
+                        "5957",
+                        "basketball+real+time+match+api",
+                        "7896",
+                        "match+live"
+                    ],
+                    "query": []
+                }
+            },
+            "response": []
+        }
+    ]
+}
